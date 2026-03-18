@@ -1,0 +1,9 @@
+name: GitHub example
+on: 
+  push:
+jobs:
+     demo:
+       runs-on: ubuntu-latest
+       steps:
+        - name: Checkout repository
+          run: echo "test.java"
